@@ -18,11 +18,7 @@ class ViewController: UIViewController {
     @IBAction func goToSecondScreen(_ sender: UIButton) {
         let secondStoryboard = UIStoryboard.init(name: "Second", bundle: nil)
         guard let secondVC = secondStoryboard.instantiateViewController(identifier: "SecondSB") as? SecondViewController else {return}
-        present(secondVC, animated: true, completion: nil)
-        
-        //        self.navigationController?.pushViewController(secondVC, animated: true)
-        //        show(nextVC, sender: nil)
-
+        self.navigationController?.pushViewController(secondVC, animated: true)
     }
     
 }

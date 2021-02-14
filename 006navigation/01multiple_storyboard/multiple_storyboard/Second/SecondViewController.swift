@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func goToFirstScreen(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
 
 }
