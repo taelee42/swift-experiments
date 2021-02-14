@@ -27,6 +27,9 @@
                                 <state key="normal" title="Go To 1st Screen">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToFirstScreen:" destination="Of8-eJ-qj8" eventType="touchUpInside" id="sCF-IJ-p26"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LKP-Ud-nYd"/>
@@ -36,6 +39,9 @@
                             <constraint firstItem="yJi-cJ-aw0" firstAttribute="centerX" secondItem="LKP-Ud-nYd" secondAttribute="centerX" id="PC0-zU-5Dt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="navigationButton" destination="yJi-cJ-aw0" id="H8i-Mv-J1n"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FWA-uK-yDd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
