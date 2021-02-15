@@ -1,8 +1,15 @@
 import UIKit
 
-var carName: String?
-carName = nil
-carName = "땡크"
+var name:String? = "batman"
+
+print(name)
+
+
+let number = Int("I'm not a number")
+print(number)
+
+
+
 
 
 // 아주 간단한 과제
