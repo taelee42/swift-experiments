@@ -14,6 +14,8 @@
 		CE16E34A25E3733700EE07DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE16E34925E3733700EE07DC /* Assets.xcassets */; };
 		CE16E34D25E3733700EE07DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE16E34B25E3733700EE07DC /* LaunchScreen.storyboard */; };
 		CE16E35625E374EC00EE07DC /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E35525E374EC00EE07DC /* CollectionViewCell.swift */; };
+		CE16E35D25E37E0800EE07DC /* SecondCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E35C25E37E0800EE07DC /* SecondCollectionViewController.swift */; };
+		CE16E36025E37FB800EE07DC /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE16E35F25E37FB800EE07DC /* SecondCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE16E34C25E3733700EE07DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE16E34E25E3733700EE07DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE16E35525E374EC00EE07DC /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CE16E35C25E37E0800EE07DC /* SecondCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewController.swift; sourceTree = "<group>"; };
+		CE16E35F25E37FB800EE07DC /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE16E34425E3733600EE07DC /* ViewController.swift */,
 				CE16E34625E3733600EE07DC /* Main.storyboard */,
 				CE16E35525E374EC00EE07DC /* CollectionViewCell.swift */,
+				CE16E35C25E37E0800EE07DC /* SecondCollectionViewController.swift */,
+				CE16E35F25E37FB800EE07DC /* SecondCollectionViewCell.swift */,
 				CE16E34925E3733700EE07DC /* Assets.xcassets */,
 				CE16E34B25E3733700EE07DC /* LaunchScreen.storyboard */,
 				CE16E34E25E3733700EE07DC /* Info.plist */,
@@ -142,7 +148,9 @@
 			files = (
 				CE16E34525E3733600EE07DC /* ViewController.swift in Sources */,
 				CE16E34125E3733600EE07DC /* AppDelegate.swift in Sources */,
+				CE16E36025E37FB800EE07DC /* SecondCollectionViewCell.swift in Sources */,
 				CE16E35625E374EC00EE07DC /* CollectionViewCell.swift in Sources */,
+				CE16E35D25E37E0800EE07DC /* SecondCollectionViewController.swift in Sources */,
 				CE16E34325E3733600EE07DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
